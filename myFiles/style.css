@@ -11,29 +11,113 @@
     src: url(Fonts/Roboto.ttf);
 }
 body {
-    background-color: pink;
-}
-header {
     
 }
-.talk {
+header {
+    padding: 1.57px, 93.42px, 1.57px, 93.42px;
+    gap: 7.85px;
+}
+.headerElementsRow {
+    justify-content: space-between;
+}
+.headerLogo {
+    
+}
+.talking {
     font-family: Signature;
+    font-size: 15.7px;
 }
 .travel {
     font-family: Changa;
+    color: #8A53FF;
+    font-size: 26.69px;
+}
+.menu {
+    display: flex;
+    font-family: Roboto;
+    height: hug(18.84px);
+    gap: 14.13px;
+    border: 1.57px;
 }
 .links {
+    height: 14.92px;
+    display: flex;
+    font-size: 12.56px;
+    gap: 14.13px;
+}
+.home {
+    color: #8A53FF;
+}
+.line {
+    border-left: thick solid #EEEEEE;
+    border-left-width: 0.1cap;
+}
+.headerPic {
+    size: 15.7px;
+}
+
+
+
+
+.hero {
+    background-image: url("images/heroBack.jpg");
+    mix-blend-mode: multiply;
+}
+.content {
+    gap: 26.69px;
+    padding: 31.4px, 94.21px, 31.4px, 109.91px;
+    width: Fixed (600.58px);
+    height: Fixed (455.34px);
+}
+.heroText {
+    gap: 9.42px;
+    width: Fill (396.46px);
+    height: Hug (198.42px);
+}
+.heroTitle1 {
+    font-family: Changa;
+    font-size: 57.31px;
+    line-height: 65.95px;
+    letter-spacing: -1%;
+    color: #8A53FF
+}
+.heroTitle2 {
+    font-family: Changa;
+    font-size: 57.31px;
+    line-height: 65.95px;
+    letter-spacing: -1%;
+}
+.heroDisc {
     font-family: Roboto;
+    font-size: 17.27px;
+    line-height: 28.26px;
+    color: #434343;
 }
-.hr {
-    rotate: 
+.callToAct {
+    display: flex;
+    
 }
-.container {
+.rectangle {
+    font-family: Roboto;
+    font-size: 12.56px;
+    line-height: 14.72px;
+    align-content: center;
+    background-color: #8A53FF;
+    width: 129.67px;
+    height: 36.11px;
+    border-radius: 3.14px;
+}
+.watchHigh {
+    font-family: Roboto;
+    color:#434343;
+    font-size: 12.56px;
+}
+/* .container {
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     float:left
-}
+} */
 
