@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Signature";
+    src: url(Fonts/BlackSignaturePersonalUseOnlyRegular.otf);
+}
+@font-face {
+    font-family: "Changa";
+    src: url(Fonts/ChangaOne-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(Fonts/Roboto.ttf);
+}
+body {
+    background-color: pink;
+}
+header {
+    
+}
+.talk {
+    font-family: Signature;
+}
+.travel {
+    font-family: Changa;
+}
+.links {
+    font-family: Roboto;
+}
+.hr {
+    rotate: 
+}
+.container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    float:left
+}
+
