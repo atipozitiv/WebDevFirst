@@ -1,21 +1,21 @@
 @font-face {
     font-family: "Signature";
-    src: url(Fonts/BlackSignaturePersonalUseOnlyRegular.otf);
+    src: url(assets/fonts/BlackSignaturePersonalUseOnlyRegular.otf);
 }
 @font-face {
     font-family: "Changa";
-    src: url(Fonts/ChangaOne-Regular.ttf);
+    src: url(assets/fonts/ChangaOne-Regular.ttf);
 }
 @font-face {
     font-family: "Roboto";
-    src: url(Fonts/Roboto.ttf);
+    src: url(assets/fonts/Roboto.ttf);
 }
 body {
     
 }
 header {
-    padding: 1.57px, 93.42px, 1.57px, 93.42px;
-    gap: 7.85px;
+    padding: 4px, 90px, 4px, 90px;
+    gap: 8px;
 }
 .headerElementsRow {
     justify-content: space-between;
@@ -25,25 +25,25 @@ header {
 }
 .talking {
     font-family: Signature;
-    font-size: 15.7px;
+    font-size: 16px;
 }
 .travel {
     font-family: Changa;
     color: #8A53FF;
-    font-size: 26.69px;
+    font-size: 26px;
 }
 .menu {
     display: flex;
     font-family: Roboto;
-    height: hug(18.84px);
-    gap: 14.13px;
-    border: 1.57px;
+    height: hug(18px);
+    gap: 14px;
+    border: 1px;
 }
 .links {
-    height: 14.92px;
+    height: 14px;
     display: flex;
-    font-size: 12.56px;
-    gap: 14.13px;
+    font-size: 12px;
+    gap: 14px;
 }
 .home {
     color: #8A53FF;
@@ -53,44 +53,44 @@ header {
     border-left-width: 0.1cap;
 }
 .headerPic {
-    size: 15.7px;
+    size: 16px;
 }
 
 
 
 
 .hero {
-    background-image: url("images/heroBack.jpg");
+    background-image: url("assets/images/heroBack.jpg");
     mix-blend-mode: multiply;
 }
 .content {
-    gap: 26.69px;
-    padding: 31.4px, 94.21px, 31.4px, 109.91px;
-    width: Fixed (600.58px);
-    height: Fixed (455.34px);
+    gap: 26px;
+    padding: 30px, 94px, 30px, 109px;
+    width: Fixed (600px);
+    height: Fixed (455px);
 }
 .heroText {
-    gap: 9.42px;
-    width: Fill (396.46px);
-    height: Hug (198.42px);
+    gap: 9px;
+    width: Fill (396px);
+    height: Hug (198px);
 }
 .heroTitle1 {
     font-family: Changa;
-    font-size: 57.31px;
-    line-height: 65.95px;
+    font-size: 58px;
+    line-height: 66px;
     letter-spacing: -1%;
     color: #8A53FF
 }
 .heroTitle2 {
     font-family: Changa;
-    font-size: 57.31px;
-    line-height: 65.95px;
+    font-size: 58px;
+    line-height: 66px;
     letter-spacing: -1%;
 }
 .heroDisc {
     font-family: Roboto;
-    font-size: 17.27px;
-    line-height: 28.26px;
+    font-size: 17px;
+    line-height: 28px;
     color: #434343;
 }
 .callToAct {
@@ -99,18 +99,18 @@ header {
 }
 .rectangle {
     font-family: Roboto;
-    font-size: 12.56px;
-    line-height: 14.72px;
+    font-size: 12px;
+    line-height: 14px;
     align-content: center;
     background-color: #8A53FF;
-    width: 129.67px;
-    height: 36.11px;
-    border-radius: 3.14px;
+    width: 129px;
+    height: 36px;
+    border-radius: 3px;
 }
 .watchHigh {
     font-family: Roboto;
     color:#434343;
-    font-size: 12.56px;
+    font-size: 12px;
 }
 /* .container {
     flex-direction: column;
