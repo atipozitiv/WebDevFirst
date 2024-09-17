@@ -1,0 +1,180 @@
+@font-face {
+    font-family: "Signature";
+    src: url(assets/fonts/BlackSignaturePersonalUseOnlyRegular.otf);
+}
+@font-face {
+    font-family: "Changa";
+    src: url(assets/fonts/ChangaOne-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(assets/fonts/Roboto.ttf);
+}
+body {
+    display: grid;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.header_logo {
+    flex-direction: column;
+    line-height: 0%;
+}
+.talking_text {
+    font-family: Signature;
+    font-size: 16px;
+}
+.travel_text {
+    font-family: Changa;
+    color: #8A53FF;
+    font-size: 26px;
+}
+.menu {
+    display: flex;
+    font-family: Roboto;
+    gap: 14px;
+    align-items: center;
+}
+.links {
+    display: flex;
+    font-size: 14px;
+    gap: 14px;
+}
+.line {
+    border-left: thick solid #EEEEEE;
+    border-left-width: 0.1cap;
+    height: 15px;
+}
+.header_pic {
+    display: flex;
+    size: 16px;
+    gap: 14px;
+}
+.story_text {
+    color: #8A53FF;
+}
+
+
+
+
+.article_section {
+    display: grid;
+}
+.article_hero_section {
+
+}
+.article_paragraph_section {
+
+}
+.article_callout_section {
+
+}
+.article_text_section {
+
+}
+.article_highlights_section {
+
+}
+.article_disclamer_section {
+    
+}
+
+
+
+
+.share_section {
+    background-image: url(assets/images/Share\ your\ travels\ section\ background\ image.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.share_build_text {
+    margin-top: 100px;
+    margin-bottom: -20px;
+    color:#8A53FF;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Roboto;
+}
+.share_join_text {
+    color: #434343;
+    font-size: 39px;
+    font-family: Changa;
+}
+.form_back {
+    background-color: #FFFFFF;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: #576074;
+    font-family: Roboto;
+    font-size: 18;
+    border-radius: 12px;
+    padding: 30px;
+    line-height: 26px;
+    margin-bottom: 80px;
+}
+.share_text {
+    font-size: 24px;
+    color: #434343;
+    font-family: Changa;
+    margin-bottom: 0;
+}
+.share_form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.form_text {
+    border-radius: 4px;
+    border-color: #0000003B;
+    color: #00000099;
+    height: 56px;
+    width: 460px;
+    margin-bottom: 15px;
+    
+}
+.big_form_text {
+    border-radius: 4px;
+    border-color: #0000003B;
+    color: #00000099;
+    height: 120px;
+    width: 460px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.submit_button {
+    margin-left: 10px;
+    background-color: #8A53FF;
+    height: 40px;
+    width: 30%;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border-color: #8A53FF;
+}  
+
+
+
+
+footer {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: space-between;
+    color: #939EB4;
+    font-size: 14px;
+    font-family: Roboto;
+}
+.footer_link {
+    display: flex;
+    gap: 30px;
+}
