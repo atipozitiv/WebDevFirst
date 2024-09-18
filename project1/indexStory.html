@@ -15,7 +15,7 @@
     </div>
     <div class="menu">
       <div class="links">
-        <p>Home</p>
+        <a href="index.html">Home</a>
         <p class="story_text">Story</p>
         <p>Gallery</p>
         <p>Contact Us</p>
@@ -29,22 +29,70 @@
   </header>
   <div class="article_section">
     <div class="article_hero_section">
-
+      <div class="article_hero_header">
+        <div class="article_hero_title">
+          <p>POPULAR DESTINATIONS</p>
+          <p class="article_hello_text">Hello Switzerland!</p>
+        </div>
+        <div class="article_hero_author">
+          <img src="assets/images/Avatar.png">
+          <div class="article_author_text">
+            <p>Darrell Steward</p>
+            <p class="author_photogr_text">Author / Photographer</p>
+          </div>
+        </div>
+      </div>
+      <div class="article_hero_video">
+        <img src="assets/images/Article Hero Video.jpg">
+      </div>
     </div>
     <div class="article_paragraph_section">
-
+      <p>Our Swiss adventure story</p>
+      <p class="article_paragraph_text">Location location location! Zermatt Switzerland offers majestic landscapes that cannot be seen elsewhere. The Matterhorn for example. This peak is a sight to behold and seeing it upclose is more magical that we’ve ever imagined. ‘Want to enjoy a nice and cozy swiss breakfast! Well, Zermatt will never fail you.</p>
     </div>
     <div class="article_callout_section">
-
+      <div class="callout_images">
+        <img src="assets/images/Callout Swiss Winter Image.jpg">
+        <div class="callout_small_images">
+          <img src="assets/images/Callout Switzerland Mountains Pop-up.jpg">
+          <img src="assets/images/Callout Switzerland sunset image.jpg">
+        </div>
+      </div>
+      <div class="callout_text">
+        <div class="callout_head">
+          <img src="assets/images/Marks.png">
+          <p class="callout_head_text">One of the best hikes we’ve done so far...</p>
+        </div>
+        <p>As one of the alpine countries, landlocked Switzerland with her mountains has to compete not only with her neighbours but with other destinations. There are, e.g., no coastal resorts.</p>
+        <p>The advantage is that tourism in Switzerland benefits of a large diversity of beautiful landscapes in a relatively small space.</p>
+        <button class="view_button">
+            View full gallery
+        </button>
+      </div>
     </div>
-    <div class="article_text_section">
-
-    </div>
+    <p class="article_text_section">The advantage is that tourism in Switzerland benefits of a large diversity of beautiful landscapes in a relatively small space, offering many possibilities for various activities all the year round, in all seasons, although primarily in summer and winter. The offers of nature as well as culture are manifold, but unfortunately price levels throughout the country are high, and this can discourage many people from visiting. Despite this major drawback, millions of visitors from all over the world arrive(d) every year.</p>
     <div class="article_highlights_section">
-
+      <p>Hightlights</p>
+      <div class="highlights_cards">
+        <div class="highlights_one_card">
+          <img src="assets/images/Highlight Image.jpg">
+          <p>The barns built in the 13th and 14th century</p>
+        </div>
+        <div class="highlights_one_card">
+          <img src="assets/images/Highlight Image (1).jpg">
+          <p>Riding the the amazing Bernina Express</p>
+        </div>
+        <div class="highlights_one_card">
+          <img src="assets/images/Highlight Image (2).jpg">
+          <p>The Matterhorn glacier cable car ride</p>
+        </div>
+      </div>
     </div>
-    <div class="article_disclamer_section">
-      
+    <div class="article_disclaimer_section">
+      <div class="disclaimer_text">
+        <p class="disclaimer_head">Disclaimer</p>
+        <p>The COVID-19 pandemic has dealt a severe blow to the tourism business in Switzerland. Although it is a minor position in the Swiss export balance, it is nevertheless of considerable importance for those regions of the country that attract domestic and foreign visitors. As a consequence of the lockdown measures, combined with close borders and travel bans, tourism collapsed and only briefly and partly recovered in summer. Its future is uncertain and depends on people’s (future guests’) attitudes and decisions as much as on the economy, political measures and, of course, the progress of the pandemic.</p>
+      </div>
     </div>
   </div>
   <div class="share_section">
@@ -54,11 +102,23 @@
       <p class="share_text">Share your travels</p>
       <p>Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
       <form class="share_form" action="">
-        <input type="text" placeholder="  Destination name" class="form_text" id="destination">
-        <input type="text" placeholder="  Country of Destination" class="form_text" id="country">
-        <input type="text" placeholder="  Your name" class="form_text" id="name">
-        <input type="text" placeholder="  Shooting category" class="form_text" id="category">
-        <input type="text" placeholder="  Describe what kind of photos you want to focus on" class="big_form_text" id="describe">
+        <input type="text" placeholder="Destination name" class="form_text" id="destination">
+        <select class="select_text">
+          <option class="option_text">Country of Destination</option>
+          <option value="Iceland">Iceland</option>
+          <option value="Italy">Italy</option>
+          <option value="Dubai">Dubai</option>
+          <option value="Patagonia">Patagonia</option>
+        </select>
+        <input type="text" placeholder="Your name" class="form_text" id="name">
+        <select class="select_text">
+          <option class="option_text">Shooting category</option>
+          <option value="Iceland">Iceland</option>
+          <option value="Italy">Italy</option>
+          <option value="Dubai">Dubai</option>
+          <option value="Patagonia">Patagonia</option>
+        </select>
+        <textarea class="big_form_text" id="describe" placeholder="  Describe what kind of photos you want to focus on"></textarea>
       </form>
       <button class="submit_button">
         Submit

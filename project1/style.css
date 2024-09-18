@@ -56,6 +56,11 @@ header {
 .home_text {
     color: #8A53FF;
 }
+a {
+    text-decoration: none;
+    color: black;
+    margin-top: 13px;
+}
 
 
 
@@ -135,6 +140,7 @@ header {
     margin-left: 80px;
     margin-right: 80px;
     line-height: 36px;
+    gap: 10px;
 }
 .destination_text {
     width: 580px;
@@ -255,24 +261,40 @@ header {
     display: flex;
     flex-direction: column;
     margin: 10px;
+    
 }
 .form_text {
     border-radius: 4px;
+    border-width: 2px;
     border-color: #0000003B;
     color: #00000099;
     height: 56px;
-    width: 460px;
     margin-bottom: 15px;
-    
+    padding-left: 8px;
+    font-family: Roboto;
+}
+.select_text {
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: #0000003B;
+    color: #00000099;
+    height: 56px;
+    margin-bottom: 15px;
+    padding-left: 2px;
+    font-family: Roboto;
 }
 .big_form_text {
+    padding-top: 20px;
     border-radius: 4px;
     border-color: #0000003B;
     color: #00000099;
+    border-width: 2px;
     height: 120px;
     width: 460px;
     margin-bottom: 15px;
-    display: flex;
+    display: flex;    
+    font-family: Roboto;
+    resize: none;
 }
 .submit_button {
     margin-left: 10px;

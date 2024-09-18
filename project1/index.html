@@ -10,13 +10,13 @@
 <body>
   <header>
     <div class="header_logo">
-      <p class="talking_text">Tolking</p>
+      <p class="talking_text">Talking</p>
       <p class="travel_text">Travel</p>
     </div>
     <div class="menu">
       <div class="links">
         <p class="home_text">Home</p>
-        <p>Story</p>
+        <a href="indexStory.html">Story</a>
         <p>Gallery</p>
         <p>Contact Us</p>
       </div>
@@ -91,11 +91,23 @@
       <p class="share_text">Share your travels</p>
       <p>Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
       <form class="share_form" action="">
-        <input type="text" placeholder="  Destination name" class="form_text" id="destination">
-        <input type="text" placeholder="  Country of Destination" class="form_text" id="country">
-        <input type="text" placeholder="  Your name" class="form_text" id="name">
-        <input type="text" placeholder="  Shooting category" class="form_text" id="category">
-        <input type="text" placeholder="  Describe what kind of photos you want to focus on" class="big_form_text" id="describe">
+        <input type="text" placeholder="Destination name" class="form_text" id="destination">
+        <select class="select_text">
+          <option class="option_text">Country of Destination</option>
+          <option value="Iceland">Iceland</option>
+          <option value="Italy">Italy</option>
+          <option value="Dubai">Dubai</option>
+          <option value="Patagonia">Patagonia</option>
+        </select>
+        <input type="text" placeholder="Your name" class="form_text" id="name">
+        <select class="select_text">
+          <option class="option_text">Shooting category</option>
+          <option value="Iceland">Iceland</option>
+          <option value="Italy">Italy</option>
+          <option value="Dubai">Dubai</option>
+          <option value="Patagonia">Patagonia</option>
+        </select>
+        <textarea class="big_form_text" id="describe" placeholder="  Describe what kind of photos you want to focus on"></textarea>
       </form>
       <button class="submit_button">
         Submit
